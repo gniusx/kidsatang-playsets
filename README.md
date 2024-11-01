@@ -42,3 +42,9 @@ Game Development
 4. เขียนฟังก์ชันสำหรับการบวกเลข และแสดงผลบนหน้าจอ LCD
 <br>Source code: [Calcutor](Calculator.ino)
 ---
+
+## Clip Video 
+YouTube: [YouTube](Calculator.ino)
+
+## Poster
+Poster: [Kidsatang Poster](Kidsatang Poster (1).png)
