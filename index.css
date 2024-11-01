@@ -9,7 +9,6 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f9;
     color: #333;
-    line-height: 1.6;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,41 +16,41 @@ body {
     padding: 20px;
 }
 
-/* กำหนดสไตล์หลักให้กับหน้า */
+/* สไตล์ของคอนเทนเนอร์ */
 .container {
     max-width: 800px;
     background-color: #ffffff;
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
 }
 
-/* สไตล์ของหัวข้อหลัก */
+/* สไตล์ของหัวข้อ */
 h1 {
     font-size: 2.5em;
     color: #333;
-    text-align: center;
     margin-bottom: 20px;
 }
 
 /* สไตล์ของย่อหน้า */
 p {
     font-size: 1.1em;
+    line-height: 1.6;
     margin-bottom: 15px;
     text-align: justify;
 }
 
-/* ปุ่มตกแต่ง */
+/* ปุ่มที่สามารถกดได้ */
 .button {
     display: inline-block;
     background-color: #007bff;
     color: #ffffff;
     padding: 10px 20px;
-    margin-top: 15px;
+    margin-top: 20px;
     border-radius: 5px;
     text-decoration: none;
     font-size: 1em;
-    text-align: center;
     transition: background-color 0.3s;
 }
 
@@ -59,7 +58,7 @@ p {
     background-color: #0056b3;
 }
 
-/* กำหนดสไตล์ให้กับลิงก์ */
+/* ลิงก์ */
 a {
     color: #007bff;
     text-decoration: none;
@@ -69,14 +68,9 @@ a:hover {
     text-decoration: underline;
 }
 
-/* ส่วนของ footer */
+/* ส่วน footer */
 footer {
     margin-top: 20px;
-    text-align: center;
     font-size: 0.9em;
     color: #777;
-}
-
-footer a {
-    color: #007bff;
 }
