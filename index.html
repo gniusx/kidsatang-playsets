@@ -4,91 +4,91 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Physical Computing Project 2024 - IT KMITL</title>
-    <link rel="stylesheet" href="index.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body>
+<body class="bg-gray-100 text-gray-800">
 
     <!-- Header Section -->
-    <header>
-        <h1>Physical Computing Project 2024 - IT KMITL</h1>
-        <p>โครงงานพัฒนาเกมเพื่อเสริมทักษะการเรียนรู้สำหรับเด็ก</p>
+    <header class="bg-blue-500 text-white text-center p-6">
+        <h1 class="text-3xl font-bold">Physical Computing Project 2024 - IT KMITL</h1>
+        <p class="mt-2">โครงงานพัฒนาเกมเพื่อเสริมทักษะการเรียนรู้สำหรับเด็ก</p>
     </header>
 
     <!-- Project Members Section -->
-    <section class="members">
-        <h2>สมาชิก</h2>
-        <ul>
+    <section class="members my-6 p-4 bg-white rounded shadow">
+        <h2 class="text-2xl font-semibold">สมาชิก</h2>
+        <ul class="list-disc pl-5">
             <li>น.ส.กรชนก แจ่มศิลป์ - รหัสนักศึกษา 66070001</li>
             <li>น.ส.กาสมา รักษาราชวิตร - รหัสนักศึกษา 66070015</li>
             <li>น.ส.ญาณิศา จันทะสะเร - รหัสนักศึกษา 66070052</li>
             <li>น.ส.นัจนันท์ พันธุ์กิติยะ - รหัสนักศึกษา 66070279</li>
         </ul>
-        <p><strong>ประเภทของโครงงาน:</strong> Game Development</p>
+        <p class="mt-2"><strong>ประเภทของโครงงาน:</strong> Game Development</p>
     </section>
 
     <!-- Project Abstract Section -->
-    <section class="abstract">
-        <h2>บทคัดย่อ</h2>
+    <section class="abstract my-6 p-4 bg-white rounded shadow">
+        <h2 class="text-2xl font-semibold">บทคัดย่อ</h2>
         <p>โครงงานนี้จัดทำขึ้นเพื่อเป็นส่วนหนึ่งของรายวิชา 06016409 PHYSICAL COMPUTING มีจุดประสงค์เพื่อนำความรู้เกี่ยวกับบอร์ด Microcontroller และอุปกรณ์อิเล็กทรอนิกส์ต่าง ๆ มาจัดสร้างเป็นชิ้นงาน ในชิ้นงานนี้เป็นการสร้างเกมจำลองร้านขายของด้วย Arduino โดยจะสร้างเกมที่จำลองการขายของในร้านค้าเป็นการส่งเสริมการเรียนรู้ของเด็ก ทักษะการตัดสินใจ ฝึกทักษะการตอบสนองความต้องการของลูกค้าอย่างรวดเร็ว ฝึกทักษะการกดเครื่องคิดเลข การพูดคุยกับผู้คน ซึ่งมีการสวมบทบาทของผู้ขายเเละผู้ซื้อ โดยทั้งสองฝ่ายก็จะมีการเล่นที่แตกต่างกันดังนี้ ในฝ่ายบทบาทผู้ขายจะได้จำลองการเป็นพนักงานคิดเงิน โดยในชิ้นงานจะมีอุปกรณ์ให้ผู้ขายสามารถมีปฏิสัมพันธ์ได้อยู่ 2 ส่วนก็คือ ส่วนที่เป็น เครื่องแสกนสินค้า ซึ่งสร้างจาก RFID Reader และส่วนที่เป็นเครื่องคิดเลข ซึ่งสร้างจาก Keypad และมีหน้าจอ LCD เพื่อแสดงผล และในส่วนบทบาทผู้ซื้อจะมี NFC Cards จำลองเป็นสินค้าต่าง ๆ ให้สามารถเลือกซื้อและนำไปคิดเงินได้นั่นเอง</p>
     </section>
 
     <!-- Equipment Section -->
-    <section class="equipment">
-        <h2>อุปกรณ์ที่ใช้ในการทำโปรเจกต์</h2>
-        <table>
+    <section class="equipment my-6 p-4 bg-white rounded shadow">
+        <h2 class="text-2xl font-semibold">อุปกรณ์ที่ใช้ในการทำโปรเจกต์</h2>
+        <table class="min-w-full mt-2">
             <thead>
-                <tr>
-                    <th>ลำดับที่</th>
-                    <th>อุปกรณ์</th>
-                    <th>จำนวน</th>
-                    <th>คำอธิบาย</th>
+                <tr class="bg-gray-200">
+                    <th class="py-2 px-4 border">ลำดับที่</th>
+                    <th class="py-2 px-4 border">อุปกรณ์</th>
+                    <th class="py-2 px-4 border">จำนวน</th>
+                    <th class="py-2 px-4 border">คำอธิบาย</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <td>1</td>
-                    <td>RFID Reader (RC522)</td>
-                    <td>1</td>
-                    <td>อุปกรณ์ที่อ่านข้อมูลจาก RFID Tag ผ่านคลื่นวิทยุ</td>
+                    <td class="py-2 px-4 border">1</td>
+                    <td class="py-2 px-4 border">RFID Reader (RC522)</td>
+                    <td class="py-2 px-4 border">1</td>
+                    <td class="py-2 px-4 border">อุปกรณ์ที่อ่านข้อมูลจาก RFID Tag ผ่านคลื่นวิทยุ</td>
                 </tr>
                 <tr>
-                    <td>2</td>
-                    <td>NFC Tag</td>
-                    <td>5</td>
-                    <td>แท็ก NFC ที่จำลองเป็นสินค้าในเกม</td>
+                    <td class="py-2 px-4 border">2</td>
+                    <td class="py-2 px-4 border">NFC Tag</td>
+                    <td class="py-2 px-4 border">5</td>
+                    <td class="py-2 px-4 border">แท็ก NFC ที่จำลองเป็นสินค้าในเกม</td>
                 </tr>
                 <tr>
-                    <td>3</td>
-                    <td>Keypad</td>
-                    <td>1</td>
-                    <td>แป้นพิมพ์ที่ใช้รับข้อมูลจากผู้ใช้</td>
+                    <td class="py-2 px-4 border">3</td>
+                    <td class="py-2 px-4 border">Keypad</td>
+                    <td class="py-2 px-4 border">1</td>
+                    <td class="py-2 px-4 border">แป้นพิมพ์ที่ใช้รับข้อมูลจากผู้ใช้</td>
                 </tr>
                 <tr>
-                    <td>4</td>
-                    <td>LCD (I2C)</td>
-                    <td>2</td>
-                    <td>จอแสดงผลที่ใช้สำหรับแสดงข้อความ</td>
+                    <td class="py-2 px-4 border">4</td>
+                    <td class="py-2 px-4 border">LCD (I2C)</td>
+                    <td class="py-2 px-4 border">2</td>
+                    <td class="py-2 px-4 border">จอแสดงผลที่ใช้สำหรับแสดงข้อความ</td>
                 </tr>
                 <tr>
-                    <td>5</td>
-                    <td>LED</td>
-                    <td>1</td>
-                    <td>ใช้เป็นไฟแสดงสถานะหรือไฟส่องสว่าง</td>
+                    <td class="py-2 px-4 border">5</td>
+                    <td class="py-2 px-4 border">LED</td>
+                    <td class="py-2 px-4 border">1</td>
+                    <td class="py-2 px-4 border">ใช้เป็นไฟแสดงสถานะหรือไฟส่องสว่าง</td>
                 </tr>
                 <tr>
-                    <td>6</td>
-                    <td>Arduino Uno R4 Wi-Fi</td>
-                    <td>2</td>
-                    <td>บอร์ด Microcontroller ที่มาพร้อมการเชื่อมต่อ Wi-Fi</td>
+                    <td class="py-2 px-4 border">6</td>
+                    <td class="py-2 px-4 border">Arduino Uno R4 Wi-Fi</td>
+                    <td class="py-2 px-4 border">2</td>
+                    <td class="py-2 px-4 border">บอร์ด Microcontroller ที่มาพร้อมการเชื่อมต่อ Wi-Fi</td>
                 </tr>
             </tbody>
         </table>
     </section>
 
     <!-- Library Section -->
-    <section class="libraries">
-        <h2>Library ที่ใช้ในการทำโปรเจกต์</h2>
-        <ul>
+    <section class="libraries my-6 p-4 bg-white rounded shadow">
+        <h2 class="text-2xl font-semibold">Library ที่ใช้ในการทำโปรเจกต์</h2>
+        <ul class="list-disc pl-5 mt-2">
             <li><strong>MFRC522:</strong> ไลบรารีสำหรับควบคุม RFID Reader รุ่น MFRC522</li>
             <li><strong>SPI:</strong> ไลบรารีการสื่อสารแบบอนุกรมสำหรับอุปกรณ์ต่าง ๆ</li>
             <li><strong>Wire:</strong> ไลบรารีการสื่อสาร I2C สำหรับจอ LCD</li>
@@ -98,32 +98,34 @@
     </section>
 
     <!-- RFID Reader Section -->
-    <section class="rfid">
-        <h2>วิธีการทำส่วนที่เป็น RFID Reader</h2>
-        <ol>
+    <section class="rfid my-6 p-4 bg-white rounded shadow">
+        <h2 class="text-2xl font-semibold">วิธีการทำส่วนที่เป็น RFID Reader</h2>
+        <ol class="list-decimal pl-5 mt-2">
             <li>เชื่อมต่อ RFID Reader RC522 กับบอร์ด Arduino ตัวที่ 1 และตั้งค่า Digital Pin ให้เรียบร้อย</li>
             <li>เชื่อมต่อจอ LCD กับบอร์ด Arduino และตั้งค่า Digital Pin ให้เรียบร้อย</li>
             <li>ทำการทดลองแตะ NFC card ต่าง ๆ และเขียนเงื่อนไขให้หน้าจอ LCD แสดงผลเป็นสินค้าต่าง ๆ ตามที่ระบุไว้</li>
         </ol>
-        <p><strong>Source code:</strong> Kidsatang_RFIDreader</p>
+        <p class="mt-2"><strong>Source code:</strong> Kidsatang_RFIDreader</p>
     </section>
 
     <!-- Calculator Section -->
-    <section class="calculator">
-        <h2>วิธีการทำส่วนที่เป็น Calculator</h2>
-        <ol>
+    <section class="calculator my-6 p-4 bg-white rounded shadow">
+        <h2 class="text-2xl font-semibold">วิธีการทำส่วนที่เป็น Calculator</h2>
+        <ol class="list-decimal pl-5 mt-2">
             <li>เชื่อมต่อ Keypad กับบอร์ด Arduino ตัวที่ 2 และตั้งค่า Digital Pin ให้เรียบร้อย</li>
             <li>เชื่อมต่อจอ LCD กับบอร์ด Arduino และตั้งค่า Digital Pin ให้เรียบร้อย</li>
             <li>เขียนเงื่อนไขสำหรับการรับค่าตัวเลข และเครื่องหมายบวก</li>
             <li>เขียนฟังก์ชันสำหรับการบวกเลข และแสดงผลบนหน้าจอ LCD</li>
         </ol>
-        <p><strong>Source code:</strong> Calculator</p>
+        <p class="mt-2"><strong>Source code:</strong> Calculator</p>
     </section>
 
     <!-- Footer -->
-    <footer>
+    <footer class="bg-gray-200 text-center p-4 mt-6">
         <p>&copy; 2024 Physical Computing Project - IT KMITL</p>
-        <a href="#">About</a> | <a href="#">Contact</a> | <a href="#">Privacy Policy</a>
+        <a href="#" class="text-blue-500 hover:underline">About</a> | 
+        <a href="#" class="text-blue-500 hover:underline">Contact</a> | 
+        <a href="#" class="text-blue-500 hover:underline">Privacy Policy</a>
     </footer>
 
 </body>
