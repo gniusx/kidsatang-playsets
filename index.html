@@ -4,59 +4,126 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Physical Computing Project 2024 - IT KMITL</title>
-    <link rel="stylesheet" href="styles.css"> <!-- เชื่อมโยงไปยังไฟล์ CSS -->
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
     <!-- Header Section -->
     <header>
-        <h1>Physical Computing Project 2024</h1>
-        <p>IT KMITL - Game Development Project</p>
+        <h1>Physical Computing Project 2024 - IT KMITL</h1>
+        <p>โครงงานพัฒนาเกมเพื่อเสริมทักษะการเรียนรู้สำหรับเด็ก</p>
     </header>
 
-    <!-- Hero Section -->
-    <section class="hero">
-        <h2>Beyond the Naked Eye</h2>
-        <p>โครงงานนี้จัดทำขึ้นเพื่อส่งเสริมการเรียนรู้ ทักษะการตัดสินใจ และการตอบสนองสำหรับเด็กๆ</p>
-        <a href="#" class="button">Get Started</a>
-        <a href="#" class="button">Learn More</a>
+    <!-- Project Members Section -->
+    <section class="members">
+        <h2>สมาชิก</h2>
+        <ul>
+            <li>น.ส.กรชนก แจ่มศิลป์ - รหัสนักศึกษา 66070001</li>
+            <li>น.ส.กาสมา รักษาราชวิตร - รหัสนักศึกษา 66070015</li>
+            <li>น.ส.ญาณิศา จันทะสะเร - รหัสนักศึกษา 66070052</li>
+            <li>น.ส.นัจนันท์ พันธุ์กิติยะ - รหัสนักศึกษา 66070279</li>
+        </ul>
+        <p><strong>ประเภทของโครงงาน:</strong> Game Development</p>
     </section>
 
-    <!-- Experience Section -->
-    <section class="experience-section">
-        <h3>Experience the Extraordinary</h3>
-        <div class="card">
-            <img src="icon1.png" alt="Icon 1">
-            <p>Pictures to the Sky</p>
-        </div>
-        <div class="card">
-            <img src="icon2.png" alt="Icon 2">
-            <p>Astronomy Adventures</p>
-        </div>
-        <div class="card">
-            <img src="icon3.png" alt="Icon 3">
-            <p>The Mystery of Telescopes</p>
-        </div>
+    <!-- Project Abstract Section -->
+    <section class="abstract">
+        <h2>บทคัดย่อ</h2>
+        <p>โครงงานนี้จัดทำขึ้นเพื่อเป็นส่วนหนึ่งของรายวิชา 06016409 PHYSICAL COMPUTING มีจุดประสงค์เพื่อนำความรู้เกี่ยวกับบอร์ด Microcontroller และอุปกรณ์อิเล็กทรอนิกส์ต่าง ๆ มาจัดสร้างเป็นชิ้นงาน ในชิ้นงานนี้เป็นการสร้างเกมจำลองร้านขายของด้วย Arduino โดยจะสร้างเกมที่จำลองการขายของในร้านค้าเป็นการส่งเสริมการเรียนรู้ของเด็ก ทักษะการตัดสินใจ ฝึกทักษะการตอบสนองความต้องการของลูกค้าอย่างรวดเร็ว ฝึกทักษะการกดเครื่องคิดเลข การพูดคุยกับผู้คน ซึ่งมีการสวมบทบาทของผู้ขายเเละผู้ซื้อ โดยทั้งสองฝ่ายก็จะมีการเล่นที่แตกต่างกันดังนี้ ในฝ่ายบทบาทผู้ขายจะได้จำลองการเป็นพนักงานคิดเงิน โดยในชิ้นงานจะมีอุปกรณ์ให้ผู้ขายสามารถมีปฏิสัมพันธ์ได้อยู่ 2 ส่วนก็คือ ส่วนที่เป็น เครื่องแสกนสินค้า ซึ่งสร้างจาก RFID Reader และส่วนที่เป็นเครื่องคิดเลข ซึ่งสร้างจาก Keypad และมีหน้าจอ LCD เพื่อแสดงผล และในส่วนบทบาทผู้ซื้อจะมี NFC Cards จำลองเป็นสินค้าต่าง ๆ ให้สามารถเลือกซื้อและนำไปคิดเงินได้นั่นเอง</p>
     </section>
 
-    <!-- About Section -->
-    <section class="about">
-        <h3>About This Project</h3>
-        <p>โครงงานนี้เป็นการสร้างเกมจำลองร้านขายของโดยใช้บอร์ด Arduino เพื่อฝึกทักษะการตอบสนองอย่างรวดเร็วในบทบาทของผู้ขายและผู้ซื้อ</p>
-        <img src="about.jpg" alt="Project Image">
+    <!-- Equipment Section -->
+    <section class="equipment">
+        <h2>อุปกรณ์ที่ใช้ในการทำโปรเจกต์</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>ลำดับที่</th>
+                    <th>อุปกรณ์</th>
+                    <th>จำนวน</th>
+                    <th>คำอธิบาย</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>RFID Reader (RC522)</td>
+                    <td>1</td>
+                    <td>อุปกรณ์ที่อ่านข้อมูลจาก RFID Tag ผ่านคลื่นวิทยุ</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>NFC Tag</td>
+                    <td>5</td>
+                    <td>แท็ก NFC ที่จำลองเป็นสินค้าในเกม</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Keypad</td>
+                    <td>1</td>
+                    <td>แป้นพิมพ์ที่ใช้รับข้อมูลจากผู้ใช้</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>LCD (I2C)</td>
+                    <td>2</td>
+                    <td>จอแสดงผลที่ใช้สำหรับแสดงข้อความ</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>LED</td>
+                    <td>1</td>
+                    <td>ใช้เป็นไฟแสดงสถานะหรือไฟส่องสว่าง</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Arduino Uno R4 Wi-Fi</td>
+                    <td>2</td>
+                    <td>บอร์ด Microcontroller ที่มาพร้อมการเชื่อมต่อ Wi-Fi</td>
+                </tr>
+            </tbody>
+        </table>
     </section>
 
-    <!-- Mobile Section -->
-    <section class="mobile">
-        <h3>Mobile Experience</h3>
-        <p>พบกับประสบการณ์การเล่นที่เต็มไปด้วยการตอบสนองในรูปแบบของแอปพลิเคชันมือถือ ที่ง่ายและสะดวก</p>
-        <img src="mobile.jpg" alt="Mobile Experience">
+    <!-- Library Section -->
+    <section class="libraries">
+        <h2>Library ที่ใช้ในการทำโปรเจกต์</h2>
+        <ul>
+            <li><strong>MFRC522:</strong> ไลบรารีสำหรับควบคุม RFID Reader รุ่น MFRC522</li>
+            <li><strong>SPI:</strong> ไลบรารีการสื่อสารแบบอนุกรมสำหรับอุปกรณ์ต่าง ๆ</li>
+            <li><strong>Wire:</strong> ไลบรารีการสื่อสาร I2C สำหรับจอ LCD</li>
+            <li><strong>LiquidCrystal_I2C:</strong> ไลบรารีสำหรับควบคุมจอ LCD แบบ I2C</li>
+            <li><strong>Keypad:</strong> ไลบรารีสำหรับรับข้อมูลจากแป้นพิมพ์</li>
+        </ul>
+    </section>
+
+    <!-- RFID Reader Section -->
+    <section class="rfid">
+        <h2>วิธีการทำส่วนที่เป็น RFID Reader</h2>
+        <ol>
+            <li>เชื่อมต่อ RFID Reader RC522 กับบอร์ด Arduino ตัวที่ 1 และตั้งค่า Digital Pin ให้เรียบร้อย</li>
+            <li>เชื่อมต่อจอ LCD กับบอร์ด Arduino และตั้งค่า Digital Pin ให้เรียบร้อย</li>
+            <li>ทำการทดลองแตะ NFC card ต่าง ๆ และเขียนเงื่อนไขให้หน้าจอ LCD แสดงผลเป็นสินค้าต่าง ๆ ตามที่ระบุไว้</li>
+        </ol>
+        <p><strong>Source code:</strong> Kidsatang_RFIDreader</p>
+    </section>
+
+    <!-- Calculator Section -->
+    <section class="calculator">
+        <h2>วิธีการทำส่วนที่เป็น Calculator</h2>
+        <ol>
+            <li>เชื่อมต่อ Keypad กับบอร์ด Arduino ตัวที่ 2 และตั้งค่า Digital Pin ให้เรียบร้อย</li>
+            <li>เชื่อมต่อจอ LCD กับบอร์ด Arduino และตั้งค่า Digital Pin ให้เรียบร้อย</li>
+            <li>เขียนเงื่อนไขสำหรับการรับค่าตัวเลข และเครื่องหมายบวก</li>
+            <li>เขียนฟังก์ชันสำหรับการบวกเลข และแสดงผลบนหน้าจอ LCD</li>
+        </ol>
+        <p><strong>Source code:</strong> Calculator</p>
     </section>
 
     <!-- Footer -->
     <footer>
         <p>&copy; 2024 Physical Computing Project - IT KMITL</p>
-        <a href="#">About</a> | <a href="#">Services</a> | <a href="#">Contact</a> | <a href="#">Privacy Policy</a>
+        <a href="#">About</a> | <a href="#">Contact</a> | <a href="#">Privacy Policy</a>
     </footer>
 
 </body>
