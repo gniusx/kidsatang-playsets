@@ -1,7 +1,82 @@
-body {
-    background-color: pink;
+/* รีเซ็ตค่าเบื้องต้นของ CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-    background-color: #ffc0cb; /* ชมพูอ่อน */
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* กำหนดสไตล์หลักให้กับหน้า */
+.container {
+    max-width: 800px;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* สไตล์ของหัวข้อหลัก */
+h1 {
+    font-size: 2.5em;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* สไตล์ของย่อหน้า */
+p {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+/* ปุ่มตกแต่ง */
+.button {
+    display: inline-block;
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 10px 20px;
+    margin-top: 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1em;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+/* กำหนดสไตล์ให้กับลิงก์ */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* ส่วนของ footer */
+footer {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 0.9em;
+    color: #777;
+}
+
+footer a {
+    color: #007bff;
 }
