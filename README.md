@@ -30,9 +30,15 @@ Game Development
 | 5 | Keypad | ไลบรารี Keypad ซึ่งช่วยให้ Arduino สามารถเชื่อมต่อและรับข้อมูลจากแผงปุ่มกด (Keypad) ได้ง่ายขึ้น ไลบรารีนี้ออกแบบมาเพื่อช่วยในการเชื่อมต่อและใช้งานกับแผงปุ่มกดที่มีปุ่มหลาย ๆ ปุ่ม เช่น 4x4 หรือ 3x4 โดยการตั้งค่าขาอินพุตให้อย่างเหมาะสม |
 
 ## วิธีการทำส่วนที่เป็น RFID Reader
-1. เชื่อมต่อ RFID Reader RC522 กับบอร์ด Arduino และตั้งค่า Digital Pin ให้เรียบร้อย
+1. เชื่อมต่อ RFID Reader RC522 กับบอร์ด Arduino ตัวที่ 1 และตั้งค่า Digital Pin ให้เรียบร้อย
 2. เชื่อมต่อจอ LCD กับบอร์ด Arduino และตั้งค่า Digital Pin ให้เรียบร้อย
 3. ทำการทดลองแตะ NFC card ต่าง ๆ และเขียนเงื่อนไขให้หน้าจอ LCD แสดงผลเป็นสินค้าต่าง ๆ ตามที่ระบุไว้
-Source code: [Kidsatang_RFIDreader](Kidsatang_RFIDreader.ino)
+<br>Source code: [Kidsatang_RFIDreader](Kidsatang_RFIDreader.ino)
 ---
 ## วิธีการทำส่วนที่เป็น Calcutor
+1. เชื่อมต่อ Keypad กับบอร์ด Arduino ตัวที่ 2 และตั้งค่า Digital Pin ให้เรียบร้อย
+2. เชื่อมต่อจอ LCD กับบอร์ด Arduino และตั้งค่า Digital Pin ให้เรียบร้อย
+3. เขียนเงื่อนไขสำหรับการรับค่าตัวเลข และเครื่องหมายบวก
+4. เขียนฟังก์ชันสำหรับการบวกเลข และแสดงผลบนหน้าจอ LCD
+<br>Source code: [Calcutor](Calculator.ino)
+---
