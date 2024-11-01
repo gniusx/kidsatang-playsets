@@ -45,8 +45,8 @@ Game Development
 ---
 
 ## Clip Video 
-YouTube: [YouTube](Calculator.ino)
+YouTube: [พบรักหน้า “แคชเชียร์”💞💸 | KIDSATANG👶🏻](https://youtu.be/iywk3FCL4GY?si=NW4oL5KpVcPmhX4-)
 
 ## Poster
-Poster: [Kidsatang Poster](https://drive.google.com/file/d/1oDiU9srLcArdjw3FNtNDeMZPnNhmq42L/view?usp=sharing)
+Poster: [Kidsatang Poster⭐🎀](https://drive.google.com/file/d/1oDiU9srLcArdjw3FNtNDeMZPnNhmq42L/view?usp=sharing)
 
