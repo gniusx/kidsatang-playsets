@@ -32,7 +32,8 @@ Game Development
 ## วิธีการทำส่วนที่เป็น RFID Reader
 1. เชื่อมต่อ RFID Reader RC522 กับบอร์ด Arduino ตัวที่ 1 และตั้งค่า Digital Pin ให้เรียบร้อย
 2. เชื่อมต่อจอ LCD กับบอร์ด Arduino และตั้งค่า Digital Pin ให้เรียบร้อย
-3. ทำการทดลองแตะ NFC card ต่าง ๆ และเขียนเงื่อนไขให้หน้าจอ LCD แสดงผลเป็นสินค้าต่าง ๆ ตามที่ระบุไว้
+3. เชื่อมต่อจอ LED กับบอร์ด Arduino และตั้งค่า Digital Pin ให้เรียบร้อย
+4. ทำการทดลองแตะ NFC card ต่าง ๆ และเขียนเงื่อนไขให้หน้าจอ LCD แสดงผลเป็นสินค้าต่าง ๆ ตามที่ระบุไว้ และมีไฟติดเมื่อแสกนการ์ด
 <br>Source code: [Kidsatang_RFIDreader](Kidsatang_RFIDreader.ino)
 ---
 ## วิธีการทำส่วนที่เป็น Calcutor
@@ -47,4 +48,5 @@ Game Development
 YouTube: [YouTube](Calculator.ino)
 
 ## Poster
-https://drive.google.com/file/d/1oDiU9srLcArdjw3FNtNDeMZPnNhmq42L/view?usp=sharing
+Poster: [Kidsatang Poster](https://drive.google.com/file/d/1oDiU9srLcArdjw3FNtNDeMZPnNhmq42L/view?usp=sharing)
+
