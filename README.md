@@ -47,4 +47,4 @@ Game Development
 YouTube: [YouTube](Calculator.ino)
 
 ## Poster
-Poster: [Kidsatang Poster](Kidsatang Poster (1).png)
+https://drive.google.com/file/d/1oDiU9srLcArdjw3FNtNDeMZPnNhmq42L/view?usp=sharing
